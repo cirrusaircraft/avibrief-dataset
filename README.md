@@ -65,6 +65,7 @@ Audio files are provided in sampled to 16000Hz, 16bit mono '.wav' files. The fil
 If there is no prefix 'scanner' or 'plane', then the audio was recorded from phone loopback recording.
 
 *Manifest / Transcript format:*
+
 Each line in the Nemo ASR manifest format is a json element with audio_filepath, text, and duration.
 
 Example of line from AVIBRIEF dataset in NeMo ASR manifest format:
@@ -73,6 +74,7 @@ Example of line from AVIBRIEF dataset in NeMo ASR manifest format:
 ```
 ---
 *Named Entity Recognition:*
+
 <!--files for training are provided in folder..... in format... complete token list is given in the paper...-->
 Data for Named Entity Recognition are provided in CoNLL-2003 format (.conll extension). These files can be found in the ``avibrief-dataset/ner/`` directory, each with the prefix of 'ns'(ns_train.conll, ns_val.conll, ns_test.conll). 
 
@@ -110,9 +112,11 @@ The Conll files can be used for development and evalutation of NER models that e
 One package that we reccommend be used for NER training and evaluation(F1 scores) is spaCy. Documentation for using spaCy can be found here: https://spacy.io/usage
 
 **Config files**
+
 The training parameters are defined in the config (.yaml)files under ``avibrief-dataset/configs/``.
 The config files included for small and large conformer models were modified from the config files that are provided in the [NeMo repo r1.16.0](https://github.com/NVIDIA/NeMo/tree/r1.16.0) at `` <NeMo_git_root>/examples/asr/conf/conformer/conformer_ctc_bpe.yaml``
 The set of optimal parameters may differ from what we have chosen, and may differ if additions are made to the data used for training.
+
 **Conformer model NGC links**
 
 These are links to the pretrained Conformer models used in our original paper.
