@@ -3,13 +3,16 @@
 **Description:** 
 AVIBRIEF is a dataset designed to advance research in ASR and NLP tasks within the aviation domain. This dataset of aviation weather briefings includes 400 audio utterances spanning a duration of approximately 3.8 hours of ATIS, AWOS and ASOS audio from 197 different US airports, captured using a variety of collection methods including radio scanners, telephone calls,and aircraft radio systems. The audio files are accompanied by human annotated and verified transcripts. In addition, gold annotations of the transcript text are also provided for Named Entity Recognition (NER) tasks. The NER task involves identification of key information in the text and classification into a set of predefined categories. (e.g.: recognizing the correct digits for altimeter settings in an ATIS broadcast).
 
+**Availability:** Thank you for your interest in this dataset. This dataset will be published on this site towards the **end of September 2023**.
 The AVIBRIEF dataset can be downloaded from this link:
 ```
 {LINK WILL BE AVAILABLE SOON}
 ```
-**Availability:** Thank you for your interest in this dataset. This dataset will be published on this site towards the **end of September 2023**.
 
-**Directory Structure**
+![image](https://github.com/cirrusaircraft/avibrief-dataset/assets/137824085/6e5938ee-d5a3-4ee5-9401-9bc0011b43f8)
+
+
+**Directory Structure:**
 The AVIBRIEF dataset comprises of three subsets: i) WS (whole set) audio corpus contains all the 400 audio recordings and their transcripts, ii) SS (segmented set) segmented audio corpus derived from the source 400 files by segmenting the audio files into smaller duration. It consists of 882 audio files and their transcripts, iii) NS (NER set) NER dataset that contain only the 400 transcript files from WS with NER annotation labels. Each of these sets contain subsets for training, validation, and testing/evaluation (train,val,test) of asr and ner models. The directory structure of the zip file is listed below.
 ```
 avibrief-dataset/
