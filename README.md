@@ -6,7 +6,7 @@ AVIBRIEF is a dataset designed to advance research in ASR and NLP tasks within t
 **Availability:** Thank you for your interest in this dataset. This dataset will be published on this site towards the **end of September 2023**.
 The AVIBRIEF dataset can be downloaded from this link:
 ```
-{LINK WILL BE AVAILABLE SOON}
+[Avibrief Dataset DASC 2023](https://stcirpdpubilc01.blob.core.windows.net/github-artifacts/avibrief-dataset_DASC2023.zip)
 ```
 
 ![image](https://github.com/cirrusaircraft/avibrief-dataset/assets/137824085/6e5938ee-d5a3-4ee5-9401-9bc0011b43f8)
