@@ -45,6 +45,7 @@ avibrief-dataset/
 │   └── ns_val.conll
 ├── preparation_script.py
 ├── README.md
+├── transcription_rules.txt
 └── LICENSE
 
 ```
@@ -114,6 +115,10 @@ The Conll files can be used for development and evalutation of NER models that e
 
 One package that we reccommend be used for NER training and evaluation(F1 scores) is spaCy. Documentation for using spaCy can be found here: https://spacy.io/usage
 
+**Transcription Rules**
+
+The `transcription_rules.txt` file contains guidelines, that were used for transcribing the audio file.
+
 **Config files**
 
 The training parameters are defined in the config (.yaml)files under ``avibrief-dataset/configs/``.
@@ -129,3 +134,4 @@ These are links to the pretrained Conformer models used in our original paper.
 [Conformer Small (version 1.6.0)](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/nemo/models/stt_en_conformer_ctc_small)
 
 For questions contact Andrew Johnson: adjohnson@cirrusaircraft.com
+
