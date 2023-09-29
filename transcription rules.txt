@@ -1,0 +1,22 @@
+Transcription rules used for Annotation of AVIFRIEF dataset.
+
+1.	Transcribe in all lowercase
+a.		This includes the transmitting and receiving entity.
+b.		For example, “pat five nine two” or “duluth tower”
+c.		For the transmitting/receiving put the verbatim of what they were called in the utterance. If not mentioned in utterance, simply put “duluth tower” or whatever may be the most likely transmitter/receiver
+2.	Don’t use special characters or punctuation (, . ? !)
+a.		Apostrophes are permitted in contractions (i’ll) and to signify ownership (duluth's)
+3.	Write numbers in words as spoken.
+a.		“one thousand, twenty two hundred” instead of 1000, 2200
+b.		“one twenty three point two five” instead of 123.25
+4.	Write words and contractions as verbatim as possible, try to keep it to real words
+a.		If “don’t” is said, write down “don’t” NOT “do not”
+b.		Write “wanna” instead of “want to” if it is said like that
+c.		Write spelled words out with letters “ils” -> “i l s”
+5.	Write tags for special situations:
+a.		[unk] – For any series or single word you cannot understand. Do NOT use “[unk][unk]”. Just use “[unk]” once for sequential unknown words.
+6.	Use the closest representations for hesitations from list: 
+a.		(um, ah, oh, uh, err, em, hm, eh).
+7.	If you cannot understand anything from a segment/file, don’t annotate it.
+NATO Phonetic Alphabet Reference
+alpha bravo charlie delta echo foxtrot golf hotel india juliett kilo lima mike november oscar papa quebec romeo sierra tango uniform victor whiskey xray yankee zulu
